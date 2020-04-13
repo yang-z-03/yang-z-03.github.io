@@ -46,14 +46,13 @@ body {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 10px;
+    padding: 15px;
     border: black;
     position: fixed;
     bottom: 0;
     left: 0;
     width: -webkit-fill-available;
     width: 100%;
-    width: -moz-fill-available;
 }
 
 .footer-ctner {

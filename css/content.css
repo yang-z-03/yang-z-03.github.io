@@ -43,10 +43,17 @@ body {
 .footer-nav {
     background: rgb(20, 20, 20);
     margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
     border: black;
     position: fixed;
     bottom: 0;
     left: 0;
+    width: -webkit-fill-available;
+    width: 100%;
+    width: -moz-fill-available;
 }
 
 .footer-ctner {

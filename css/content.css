@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, "Varia Regular", "微软雅黑", "Microsoft Yahei UI", "Segoe UI";
+    font-family: "PingFang SC","Gotham", "Microsoft YaHei UI","????","Microsoft Sans Serif",sans-serif;
 }
 
 .desc-nav {
@@ -48,6 +48,8 @@ body {
     margin-right: 0px;
     padding: 10px;
     width: -webkit-fill-available;
+    width: 100%;
+    width: -moz-fill-available;
     border: black;
     left: 0px;
     position: absolute;
@@ -480,7 +482,6 @@ button {
     background: #0043ac;
     cursor: pointer;
     outline: none;
-    font-family: Georgia, 'Varia Regular', 'Microsoft YaHei', 'Segoe UI';
     color: white;
     font-size: 16px;
 }

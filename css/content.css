@@ -1,5 +1,5 @@
 body {
-    font-family: "PingFang SC","Gotham", "Microsoft YaHei UI","????","Microsoft Sans Serif",sans-serif;
+    font-family: "PingFang SC", "Gotham", "Microsoft YaHei UI", "????", "Microsoft Sans Serif", sans-serif;
 }
 
 .desc-nav {
@@ -43,16 +43,10 @@ body {
 .footer-nav {
     background: rgb(20, 20, 20);
     margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 10px;
-    width: -webkit-fill-available;
-    width: 100%;
-    width: -moz-fill-available;
     border: black;
-    left: 0px;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .footer-ctner {

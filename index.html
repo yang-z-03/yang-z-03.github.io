@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="css/content.css" />
   <link rel="stylesheet" href="css/navigator.css" />
   <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/tile.css"/>
   <script src="js/navigation.js"></script>
 </head>
 
-<body >
+<body>
   <div class="header">
     <div class="Gnav-sticky Gnav-active has-subnav">
       <header id="AdobePrimaryNav" class="Gnav-wrapper" role="banner">
@@ -542,9 +543,29 @@
       </header>
     </div>
   </div>
-  
+
   <div onclick="gnav_clearall()">
     <!-- The Main Content -->
+    <div id="most-visited" class="thumb-ntp">
+      <h1> Current Projects </h1>
+      <div id="mv-tiles" style="opacity: 0.8;">
+
+        <a class="mv-tile" data-tid="1" href="http://xornent.github.io/indexes/prevision" title="Prevision">
+          <div class="mv-favicon"><img src="/images/icon/prevision.ico" title=""></div>
+          <div class="mv-title" style="direction: ltr;">Project Prevision</div>
+          <div class="mv-thumb failed-img"></div>
+        </a>
+
+        <a class="mv-tile" data-tid="1" href="http://xornent.github.io/indexes/anura" title="Prevision">
+          <div class="mv-favicon">
+            <img src="/images/icon/prevision.ico" title="">
+          </div>
+          <div class="mv-title" style="direction: ltr;">Project Anura</div>
+          <div class="mv-thumb failed-img"></div>
+        </a>
+
+      </div>
+    </div>
   </div>
 
   <div onclick="gnav_clearall()">

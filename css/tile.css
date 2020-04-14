@@ -1,0 +1,89 @@
+h1 {
+    font-weight: 300;
+}
+
+.thumb-ntp #mv-tiles, .thumb-ntp .mv-tiles-old {
+    height: calc(146px + 130px);
+    line-height: 146px;
+}
+
+div#mv-tiles {
+    position: relative;
+    text-align: center;
+}
+
+.thumb-ntp .mv-tile, .thumb-ntp .mv-empty-tile {
+    background: rgb(242, 242, 242);
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 4px;
+    height: 154px;
+    line-height: 100%;
+    margin: 0 8px;
+    width: 210px;
+}
+
+.mv-tile, .mv-empty-tile {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    opacity: 1;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.mv-tile {
+    cursor: pointer;
+}
+
+.thumb-ntp .mv-tile:hover {
+    box-shadow: 0 10px 10px 0 rgba(255, 0, 0, 0), 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.mv-favicon {
+    background-size: 16px;
+    height: 16px;
+    left: 7px;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 7px;
+    width: 16px;
+}
+
+.thumb-ntp .mv-title {
+    height: 15px;
+    left: 31px;
+    line-height: 14px;
+    padding: 0;
+    top: 8px;
+}
+
+.thumb-ntp .mv-thumb {
+    border-radius: 0;
+    height: 94px;
+    left: 3px;
+    top: 31px;
+    width: 148px;
+}
+
+.mv-thumb {
+    border: none;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}
+
+.mv-thumb.failed-img::after {
+    border: 20px solid #f2f2f2;
+    border-radius: 50%;
+    content: ' '; 
+    display: block;
+    height: 0;
+    width: 0;
+    margin-top: 38px;
+    margin-left: 85px;
+}

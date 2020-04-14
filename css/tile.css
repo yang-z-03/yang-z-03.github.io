@@ -1,4 +1,5 @@
 h1 {
+    text-align: center;
     font-weight: 300;
 }
 
@@ -155,12 +156,15 @@ div#mv-tiles {
 
 .mv-tile {
     -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    transition-property: -webkit-transform, border, box-shadow, margin, opacity, width;
     -webkit-transition-property: -webkit-transform, border, box-shadow, margin, opacity, width;
     cursor: pointer;
 }
 
 .thumb-ntp .mv-tile:focus:not(:hover) {
     -webkit-filter: brightness(75%);
+    filter: brightness(75%);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -391,6 +395,7 @@ html[dir=rtl] .icon-ntp .mv-x {
 
 .mv-tile:hover .mv-x {
     -webkit-transition-delay: 500ms;
+    transition-delay: 500ms;
     opacity: 1;
 }
 

@@ -9,17 +9,13 @@ function gnav_clearall() {
     start.parentNode.setAttribute("class", "Gnav-menu-item has-submenu");
     start.setAttribute("aria-expanded", "False");
 
-    var olink = document.getElementById("gnav.olink");
+    var olink = document.getElementById("gnav.doc");
     olink.parentNode.setAttribute("class", "Gnav-menu-item has-submenu");
     olink.setAttribute("aria-expanded", "False");
 
     var page = document.getElementById("gnav.page");
     page.parentNode.setAttribute("class", "Gnav-menu-item has-submenu");
     page.setAttribute("aria-expanded", "False");
-
-    var help = document.getElementById("gnav.help");
-    help.parentNode.setAttribute("class", "Gnav-menu-item has-submenu");
-    help.setAttribute("aria-expanded", "False");
 
     var tool = document.getElementById("gnav.tool");
     tool.parentNode.setAttribute("class", "Gnav-menu-item has-submenu");

@@ -41,25 +41,20 @@ body {
 }
 
 .footer-nav {
-    background: rgb(20, 20, 20);
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 15px;
-    border: black;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: -webkit-fill-available;
     width: 100%;
 }
 
 .footer-ctner {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 10px;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 12px;
 }
 

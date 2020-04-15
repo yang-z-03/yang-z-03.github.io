@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "PingFang SC";
+    src: url("../font/PingFang\ Regular.ttf");
+}
+
 body {
-    font-family: "PingFang SC", "Gotham", "Microsoft YaHei UI", "????", "Microsoft Sans Serif", sans-serif;
+    font-family: "PingFang SC", sans-serif;
 }
 
 .desc-nav {

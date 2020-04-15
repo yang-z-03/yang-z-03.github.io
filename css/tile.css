@@ -3,11 +3,6 @@ h1 {
     font-weight: 300;
 }
 
-.thumb-ntp #mv-tiles, .thumb-ntp .mv-tiles-old {
-    height: calc(146px + 130px);
-    line-height: 146px;
-}
-
 div#mv-tiles {
     position: relative;
     text-align: center;
@@ -21,7 +16,7 @@ div#mv-tiles {
     line-height: 100%;
     margin: 0 8px;
     width: 210px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mv-tile, .mv-empty-tile {
@@ -34,6 +29,7 @@ div#mv-tiles {
     position: relative;
     vertical-align: top;
     white-space: nowrap;
+    margin-bottom: 20px;
 }
 
 .mv-tile {
@@ -108,15 +104,7 @@ div#mv-tiles {
     text-align: -webkit-auto;
     transition: opacity 1s;
 }
-
-.thumb-ntp #mv-tiles, .thumb-ntp .mv-tiles-old {
-    height: calc(146px + 130px);
-    line-height: 146px;
-}
-
 .icon-ntp #mv-tiles, .icon-ntp .mv-tiles-old {
-    height: calc(2 * 112px);
-    line-height: 112px;
     width: 100%;
 }
 

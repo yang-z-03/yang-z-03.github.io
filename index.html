@@ -15,7 +15,7 @@
   <script src="js/navigation.js"></script>
 </head>
 
-<body>
+<body onresize = "headlineResize()">
   <div class="header">
     <div class="Gnav-sticky Gnav-active has-subnav">
       <header id="AdobePrimaryNav" class="Gnav-wrapper" role="banner">
@@ -218,7 +218,7 @@
     <!-- The Main Content -->
     <div class="main-title">
       <h1 style="font-size: 2em; padding-top:100px; padding-bottom: 10px;margin-bottom: 0px;">XORNENT</h1>
-      <H1 style="font-size: 5em; padding-top: 0px; margin-top:0px; padding-bottom: 200px;">做复杂而有趣的事</H1>
+      <H1 id="title.main" style="font-size: 5em; padding-top: 0px; margin-top:0px; padding-bottom: 200px;">做复杂而有趣的事</H1>
     </div>
     <div id="most-visited" class="thumb-ntp">
       <h1> Current Projects </h1>
@@ -250,6 +250,13 @@
       </p>
     </div>
   </div>
-</body>
 
+  <script>
+    function headlineResize(){
+      document.getElementById("title.main").style.paddingBottom = 
+      window.innerHeight - 200;
+    }
+    headlineResize();
+  </script>
+</body>
 </html>

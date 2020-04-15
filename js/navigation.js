@@ -6,7 +6,8 @@ function global_nav_click(e) {
     var rect = doc.getBoundingClientRect();
     var display = window.innerWidth - rect.left;
     var delta = rect.width - display;
-    doc.style.left = -delta - 18;
+    if (delta + 18 > 0)
+        doc.style.left = -delta - 18;
 }
 
 function gnav_clearall() {

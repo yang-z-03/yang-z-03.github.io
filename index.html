@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="page.css" />
 </head>
 
-<body onresize = "headlineResize()">
+<body onresize = "headlineResize()" onscroll="shrink()" id="body">
   <div class="header">
     <div class="Gnav-sticky Gnav-active has-subnav">
       <header id="AdobePrimaryNav" class="Gnav-wrapper" role="banner">
@@ -202,7 +202,8 @@
   <div onclick="gnav_clearall()">
     <!-- The Main Content -->
     <div class="main-title">
-      <h1 style="font-size: 2em; padding-top:100px; padding-bottom: 10px;margin-bottom: 0px;">
+      <h1 style="font-size: 2em; padding-top:210px; padding-bottom: 10px;margin-bottom: 0px;">
+        
       </h1>
       <H1 id="title.main" style="font-size: 5em; padding-top: 0px; margin-top:0px; padding-bottom: 200px;">
         Jokios Misijos
@@ -255,9 +256,18 @@
   <script>
     function headlineResize(){
       document.getElementById("title.main").style.paddingBottom = 
-      window.innerHeight - 200;
+      window.innerHeight - 250;
     }
     headlineResize();
+
+    function shrink(){
+      var gnv = document.getElementById("AdobePrimaryNav");
+      var bd = document.getElementById("body");
+      var dHeight = 0;
+      if(bd.scrollTop < 90) dHeight = (bd.scrollTop/2);
+      else dHeight = 45;
+      gnv.style.height = 80 - dHeight;
+    }
   </script>
 </body>
 </html>

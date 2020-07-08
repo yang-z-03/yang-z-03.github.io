@@ -37,7 +37,7 @@ body {
 
 .placeHolder {
     content:' ';
-    margin:80px;
+    padding:80px;
 }
 
 .footer-nav {

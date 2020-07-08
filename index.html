@@ -202,7 +202,7 @@
   <div onclick="gnav_clearall()">
     <!-- The Main Content -->
     <div class="main-title">
-      <h1 style="font-size: 2em; padding-top:210px; padding-bottom: 10px;margin-bottom: 0px;">
+      <h1 style="font-size: 2em; padding-top:210px; padding-bottom: 10px;margin-bottom: 0px;" id="titleMinor">
         
       </h1>
       <H1 id="title.main" style="font-size: 5em; padding-top: 0px; margin-top:0px; padding-bottom: 200px;">
@@ -227,19 +227,7 @@
       </div>
     </div>
 
-    <div class="placeHolder"></div>
-
-    <div id="most-visited" class="thumb-ntp">
-      <h1> 项目概览 </h1>
-      <div class="placeHolder"></div>
-    </div>
-
-    <div class="placeHolder">
-    </div>
-    <div class="placeHolder">
-    </div>
-    <div class="placeHolder">
-    </div>
+    <div style="content:' '; padding:60px;"></div>
   </div>
 
   <div onclick="gnav_clearall()">
@@ -257,6 +245,8 @@
     function headlineResize(){
       document.getElementById("title.main").style.paddingBottom = 
       window.innerHeight - 250;
+      var t1 = document.getElementById("titleMinor");
+      t1.style.paddingTop = ((window.innerHeight)/2)-35;
     }
     headlineResize();
 

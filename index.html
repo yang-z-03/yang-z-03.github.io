@@ -1,36 +1,32 @@
-﻿<html class="windows" lang="en">
-
-<head>
+﻿<html class="windows" lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta http-equiv="content-language" content="zh-cn">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Xornent (Organization) | 简体中文</title>
 
-  <link rel="stylesheet" href="css/table.css" />
-  <link rel="stylesheet" href="css/content.css" />
-  <link rel="stylesheet" href="css/navigator.css" />
-  <link rel="stylesheet" href="css/content.css" />
-  <link rel="stylesheet" href="css/tile.css" />
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/navigator.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/tile.css">
   <script src="js/navigation.js"></script>
-  <link rel="stylesheet" href="page.css" />
+  <link rel="stylesheet" href="page.css">
 </head>
 
-<body onresize = "headlineResize()" onscroll="shrink()" id="body">
+<body onresize="headlineResize()" onscroll="shrink()" id="body">
   <div class="header">
     <div class="Gnav-sticky Gnav-active has-subnav">
-      <header id="AdobePrimaryNav" class="Gnav-wrapper" role="banner">
+      <header id="AdobePrimaryNav" class="Gnav-wrapper" role="banner" style="height: 80px;">
         <nav class="Gnav" role="navigation">
           <a class="Gnav-logo" href="/#" data-adobe-analytics-linkname="Globalnav:Menu:Adobe">
-            <svg class="Gnav-logo-image" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 24 20"
-              focusable="false">
+            <svg class="Gnav-logo-image" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 24 20" focusable="false">
               <!-- Add Logo SVG Path -->
             </svg>
             <span class="Gnav-logo-text">Xornent 项目组主页</span>
           </a>
           <div class="Gnav-menu-wrapper">
-            <button class="Gnav-hamburger" aria-expanded="false" aria-haspopup="true" aria-label="导航菜单" tabindex="1"
-              role="button">
+            <button class="Gnav-hamburger" aria-expanded="false" aria-haspopup="true" aria-label="导航菜单" tabindex="1" role="button">
               <span class="Gnav-hamburger-box">
                 <span class="Gnav-hamburger-inner"></span>
               </span>
@@ -40,115 +36,29 @@
               <ul class="Gnav-menu" data-gnav-scrollable="mobile">
                 <!--Project-->
                 <li class="Gnav-menu-item has-submenu">
-                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="false"
-                    role="button" onClick="global_nav_click(this)" id="gnav.start">
+                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="False" role="button" onclick="global_nav_click(this)" id="gnav.start">
                     项目
                   </a>
-                  <ul class="Gnav-submenus" data-type="popup" role="group" data-gnav-scrollable="desktop" id="ul.proj">
+                  <ul class="Gnav-submenus" data-type="popup" role="group" data-gnav-scrollable="desktop" id="ul.proj" style="left: 0px;">
                     <!--Row 1-->
                     <li class="Gnav-submenu-wrapper">
                       <h5 class="Gnav-submenu-headline">看看正在做什么</h5>
                       <ul class="Gnav-submenu" data-type="column">
                         <li class="Gnav-submenu-item" id="Globalnav.Creativity_Design.Creative_Cloud_for_.Everyone">
-                          <a href="//xornent.github.io/#" class="Gnav-submenu-link" data-type="columnitem"
-                            target="_self">
+                          <a href="//xornent.github.io/#" class="Gnav-submenu-link" data-type="columnitem" target="_self">
                             <span class="Gnav-submenu-title">主页</span>
                             <span class="Gnav-submenu-description">
-                              Xornent 项目组主页
+                              Xornent 主页
                             </span>
                           </a>
                         </li>
 
-                        <li class="Gnav-submenu-item"
-                          id="Globalnav.Creativity_Design.Creative_Cloud_for_.Small_medium_business">
-                          <a href="./anura/index.html" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                            <span class="Gnav-submenu-title">项目 Anura</span>
-                            <span class="Gnav-submenu-description">尝试使用 C# 渲染执行网络应用程序</span>
+                        <li class="Gnav-submenu-item" id="Globalnav.Creativity_Design.Creative_Cloud_for_.Small_medium_business">
+                          <a href="./simula/index.html" class="Gnav-submenu-link" data-type="columnitem" target="_self">
+                            <span class="Gnav-submenu-title">项目 Simula</span>
+                            <span class="Gnav-submenu-description">尝试使用 C# 的脚本执行器</span>
                           </a>
                         </li>
-
-                      </ul>
-                    </li>
-
-                  </ul>
-                </li>
-
-                <li class="Gnav-menu-item has-submenu" id="Globalnav.Marketing_Analytics">
-                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="false"
-                    role="button" onClick="global_nav_click(this)" id="gnav.doc">
-                    文档
-                  </a>
-                  <ul class="Gnav-submenus" data-type="popup" role="group" data-gnav-scrollable="desktop" id="ul.doc">
-
-                    <li class="Gnav-submenu-wrapper">
-                      <h5 class="Gnav-submenu-headline">项目文档</h5>
-                      <ul class="Gnav-submenu" data-type="column">
-                        <li class="Gnav-submenu-item"
-                          id="Globalnav.Creativity_Design.Creative_Cloud_for_.Small_medium_business">
-                          <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem"
-                            target="_self">
-                            <span class="Gnav-submenu-title">Anura 开发文档</span>
-                            <span class="Gnav-submenu-description">介绍和规定 Anura 如何实现，拓展标准；</br> 记录存在的问题和特性</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li class="Gnav-submenu-wrapper">
-                      <h5 class="Gnav-submenu-headline">文档：以 Web 技术分类</h5>
-                      <ul class="Gnav-submenu" data-type="column">
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem"
-                          target="_self">
-                          <span class="Gnav-submenu-title">Cascade Style Sheet</span>
-                          <span class="Gnav-submenu-description">实现和渲染层叠样式表</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">ECMA 脚本语言</span>
-                          <span class="Gnav-submenu-description">执行 ECMA Script 的细节和优化</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">Anura Web 接口</span>
-                          <span class="Gnav-submenu-description">支持的 Web 应用程序接口和实例</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">渲染流程</span>
-                          <span class="Gnav-submenu-description">Html 渲染和呈现和布局流程细节</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">性能和计时</span>
-                          <span class="Gnav-submenu-description">获取网页，执行网络程序的同步/异步顺序</br>以及总体流程优化</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">硬件引用项目</span>
-                          <span class="Gnav-submenu-description">为适配硬件设施，(包括但不限于 BlueTooth, </br> 屏幕方向，游戏手柄，触屏控制等）的支持</span>
-                        </a>
-                        <a href="//xornent.github.io/anura/" class="Gnav-submenu-link" data-type="columnitem" target="_self">
-                          <span class="Gnav-submenu-title">命令行</span>
-                          <span class="Gnav-submenu-description">标准和拓展的调试程序</span>
-                        </a>
-                      </ul>
-                    </li>
-
-                  </ul>
-                </li>
-
-                <li class="Gnav-menu-item has-submenu" id="Globalnav.Documents_and_E_Signatures">
-                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="false"
-                    role="button" onClick="global_nav_click(this)" id="gnav.page">
-                    博客和文章
-                  </a>
-                  <ul class="Gnav-submenus" data-type="popup" role="group" data-gnav-scrollable="desktop" id="ul.blog">
-
-                    <li class="Gnav-submenu-wrapper">
-                      <h5 class="Gnav-submenu-headline">固定的文章</h5>
-                      <ul class="Gnav-submenu" data-type="column">
-
-                      </ul>
-                    </li>
-
-                    <li class="Gnav-submenu-wrapper">
-                      <h5 class="Gnav-submenu-headline">其他：按时间顺序排序</h5>
-                      <ul class="Gnav-submenu" data-type="column">
 
                       </ul>
                     </li>
@@ -157,11 +67,10 @@
                 </li>
 
                 <li class="Gnav-menu-item has-submenu" id="Globalnav.Support">
-                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="false"
-                    role="button" onClick="global_nav_click(this)" id="gnav.tool">
+                  <a class="Gnav-menu-label" data-type="item" aria-haspopup="true" aria-expanded="False" role="button" onclick="global_nav_click(this)" id="gnav.tool">
                     帮助和支持
                   </a>
-                  <ul class="Gnav-submenus" data-type="popup" data-gnav-scrollable="desktop" id="ul.help">
+                  <ul class="Gnav-submenus" data-type="popup" data-gnav-scrollable="desktop" id="ul.help" style="left: 0px;">
 
                     <li class="Gnav-submenu-wrapper">
 
@@ -181,8 +90,7 @@
                         </li>
 
                         <li class="Gnav-submenu-item" id="Globalnav.Support.Column0.Contact_us">
-                          <a href="#" class="Gnav-submenu-cta is-visible" data-type="columnitem" target="_self"
-                            data-open-jarvis-chat="">
+                          <a href="#" class="Gnav-submenu-cta is-visible" data-type="columnitem" target="_self" data-open-jarvis-chat="">
                             <span class="Gnav-submenu-title">联系我们</span>
                           </a>
                         </li>
@@ -201,42 +109,32 @@
 
   <div onclick="gnav_clearall()">
     <!-- The Main Content -->
-    <div class="main-title">
-      <h1 style="font-size: 2em; padding-top:210px; padding-bottom: 10px;margin-bottom: 0px;" id="titleMinor">
-        
-      </h1>
-      <H1 id="title.main" style="font-size: 5em; padding-top: 0px; margin-top:0px; padding-bottom: 200px;">
-        Jokios Misijos
-      </H1>
+    <div class="main-title" style="height:30%">
+      
+      
     </div>
     <div id="most-visited" class="thumb-ntp">
       <h1> 当前项目 </h1>
       <div id="mv-tiles" style="opacity: 0.8;">
-        <a class="mv-tile" data-tid="1" href="http://xornent.github.io/anura/index.html" title="Anura">
-          <div class="mv-favicon"><img src="./images/icon/anura-32.png" title=""></div>
-          <div class="mv-title" style="direction: ltr;">Project Anura</div>
+        <a class="mv-tile" data-tid="1" href="./simula/index.html" title="Simula">
+          <div class="mv-favicon"><img src="./images/icon/simula-32.png" title=""></div>
+          <div class="mv-title" style="direction: ltr;">Project Simula</div>
           <div class="mv-thumb failed-img"></div>
         </a>
-        <a class="mv-tile" data-tid="1" href="" title="Prevision">
-          <div class="mv-favicon">
-            <img src="./images/icon/pnl-32.png" title="">
-          </div>
-          <div class="mv-title" style="direction: ltr;">Procedure Navigation</div>
-          <div class="mv-thumb failed-img"></div>
-        </a>
+        
       </div>
     </div>
 
-    <div style="content:' '; padding:60px;"></div>
+    <div style="height:35%"></div>
   </div>
 
   <div onclick="gnav_clearall()">
     <div class="footer-nav">
       <p class="footer-ctner">
         <a href="https://xornent.github.io/">首页</a>&nbsp;&nbsp;
-        <a href="https://xornent.github.io/">文章</a>&nbsp;&nbsp;
+        <a href="https://xornent.github.io/">发布版本</a>&nbsp;&nbsp;
         <a href="https://xornent.github.io/">Creative Commons</a>&nbsp;&nbsp;
-        版权所有 &copy; Xornent Organization 2016 - 2020.
+        版权所有 © Xornent Organization 2016 - 2020.
       </p>
     </div>
   </div>
@@ -259,5 +157,5 @@
       gnv.style.height = 80 - dHeight;
     }
   </script>
-</body>
-</html>
+
+</body></html>

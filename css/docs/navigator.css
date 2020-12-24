@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Metropolis";
+    src: url("./../../font/metropolis.otf");
+}
+
 .content_container {
     min-height: 100vh;
     background: #fff;
@@ -315,8 +320,8 @@ html body {
     margin: 0;
     background: #f1f1f1;
     color: #1a1a1a;
-    font: 15px/1.46 Arial,Helvetica,sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
+    font: 15px/1.46 Metropolis,Helvetica,sans-serif;
+    font-family: Metropolis, sans-serif;
     overflow-y: scroll;
     -ms-overflow-style: scrollbar;
     -webkit-font-smoothing: antialiased;
@@ -389,13 +394,13 @@ h1, h2, h3, h4 {
 h1 {
     padding: 0 61px 5px 0;
     border-bottom: 1px solid #cbcbcb;
-    font: normal normal 22px/1.136 Arial,Helvetica,sans-serif;
+    font: normal normal 22px/1.136 Metropolis,Helvetica,sans-serif;
 }
 
 h2 {
     padding: 0 61px 2px 0;
     margin: 5px 0px;
-    font: bold 16px/1.136 Arial,Helvetica,sans-serif;
+    font: bold 16px/1.136 Metropolis,Helvetica,sans-serif;
 }
 
 p {

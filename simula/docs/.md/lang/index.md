@@ -17,6 +17,9 @@ Simula 脚本语言采用了当前程序语言中许多通用的设计，并针�
 .back Simula|./../../index.html
 .back Simula 文档索引|./../index.html
 
+.a 文件和文件结构|./files.html 
+源代码文件的结构，以及文件之间的相互调用。解释器在读取和执行不同文件时的顺序和依赖关系。
+
 .a 基础数据类型|./types.html
 系统和基础算数运算提供了与外部库无关的封闭类型，包括任意大整数 `int` ，有理数 `float` ，函数 `func` ，类型 `class` ，序列 `array` ，函数形式参数对 `pair` ，字符串 `string` 和 `null` 
 

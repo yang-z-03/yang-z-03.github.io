@@ -1,0 +1,42 @@
+
+body {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+
+    font-family: monospace;
+    font-size: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.caption {
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    font-size: 1em;
+}
+
+.text {
+    text-align: left;
+    font-weight: normal;
+    color: black;
+    font-size: 1em;
+}
+
+.small {
+    text-align: left;
+    font-weight: normal;
+    color: black;
+    font-size: 0.7em;
+}
+
+td {
+    vertical-align: top;
+}

@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "Metropolis";
-    src: url("./../../font/metropolis.otf");
-}
 
 .content_container {
     min-height: 100vh;

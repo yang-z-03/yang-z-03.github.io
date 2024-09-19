@@ -40,3 +40,7 @@ body {
 td {
     vertical-align: top;
 }
+
+table {
+    font-size: 100%;
+}

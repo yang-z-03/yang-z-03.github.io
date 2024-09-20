@@ -13,11 +13,43 @@
   </div>
   <p class="title" style="margin-bottom: 1cm;">Overview of Bioinformatic Resources</p>
 
-  <p>
-    <span class="caption" style="margin-top: 0.5cm;">annot/</span>
-    utilities for processing refseq genomic annotations
+  <p class="caption" style="margin-top: 0.5cm;">
+    Introduction
   </p>
-  
+
+  <p>
+    the <a href="https://github.com/Xornent/bioinfo">bioinfo</a> repository
+    contains a collection of tools and resources for bioinformatic data
+    processing and manipulation. at present, the majority of these focus on
+    processing single cell transcriptomics:
+  </p>
+
+  <ul>
+    <li>
+      manipulating genomic annotations (from gff/gtf3 files). building
+      annotation indices, filtering, id-conversion and statistics about gene lengths
+      and exon lengths (which may be of use when normalizing non-UMI based data)
+    </li>
+    <li>
+      genome sequence mapping (star and cell ranger) scripts and indices.
+    </li>
+    <li>
+      handling single cell protocols (configuration of umis, etc.)
+    </li>
+    <li>
+      handling raw sequence reads (fastq file operations)
+    </li>
+    <li>
+      procedures after generating an expression matrix. assigning sample metadata,
+      mapping the cell ranger (or star) result to a specified gff file. basic
+      quality controls (including doublet detection), normalization (including
+      sequence length correction for non-UMI dataset, log normalization, sctransform,
+      harmony, scvi etc.). data scaling. integration of multiple experiments.
+      dimension reduction (pca, umap and tsne, with plotting). clustering.
+      differential expression. gene set enrichment. pseudo-time analyses (monocle). and
+      intercellular ligand-receptor interactions (cpdb).
+    </li>
+  </ul>
 
   <hr style="margin-top: 1cm;">
   <p class="caption">Notes</p>
